@@ -3,15 +3,21 @@ import React from 'react';
 export default function About() {
   return (
     <div>
-      <h1>About Page</h1>
-      <p>
-        Nunc pharetra finibus est at efficitur. Praesent sed congue diam.
-        Integer gravida dui mauris, ut interdum nunc egestas sed. Aenean sed
-        mollis diam. Nunc aliquet risus ac finibus porta. Nam quis arcu non
-        lectus tincidunt fermentum. Suspendisse aliquet orci porta quam semper
-        imperdiet. Praesent euismod mi justo, faucibus scelerisque risus cursus
-        in. Sed rhoncus mollis diam, sit amet facilisis lectus blandit at.
-      </p>
+      <h2>About Me</h2>
+        <img
+          src="./assets/arely-riv.jpg"
+          alt="picture of Arely Rivera"
+        />
+        <p>
+          Full stack web developer with an extensive background in psychology.
+          Recently earned a certificate in full stack development at UCLA
+          Extension, acquiring skills in JavaScript, CSS, React.js, and
+          responsive web design. Passionate about creating efficient
+          applications with an intuitive, user friendly interface. Recognized as
+          proactive, collaborative, and a persistent problem-solver. Excellent
+          communicator with experience in effective client relationship-building
+          skills.
+        </p>
     </div>
   );
 }
