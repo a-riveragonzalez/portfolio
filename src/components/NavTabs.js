@@ -5,9 +5,9 @@ import './css/navTabs.css';
 // We assign them to their own variable names
 function NavTabs({ currentPage, handlePageChange }) {
   return (
-    <div className="d-flex">
-      <h3>Arely Rivera-Gonzalez</h3>
-      <ul className="nav nav-tabs">
+    <div className="header d-flex justify-content-between">
+      <h3 className="px-3 heading-name">Arely Rivera-Gonzalez</h3>
+      <ul className="nav nav-pills py-2 px-2">
         <li className="nav-item">
           <a
             href="#home"
