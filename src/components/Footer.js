@@ -1,4 +1,7 @@
 import React from 'react';
+import './css/portfolioContainer.css';
+import './css/footer.css';
+
 
 export default function Footer() {
   return (
