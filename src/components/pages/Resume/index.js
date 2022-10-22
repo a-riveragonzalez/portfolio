@@ -15,7 +15,7 @@ export default function Resume() {
 
       {/* todo : Link to download resume  */}
       <p>
-        this will have a download resume link
+        Download my resume : --button to download--
       </p>
     </div>
   );
