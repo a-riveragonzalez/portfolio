@@ -4,14 +4,15 @@
   --light-grey: #eeeeee;
 }
 
-h2, p {
-    text-align: center;
-    padding-left: 10px;
-    padding-right: 10px;
+h2,
+p {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 b {
-    color: var(--teal)
+  color: var(--teal);
 }
 
 .home {
@@ -28,6 +29,7 @@ b {
 
 .first-box {
   background-color: var(--teal);
+  /* z-index: 1; */
 }
 
 .inner-first-box {
@@ -41,11 +43,12 @@ b {
   border-top: solid 4px var(--dark-grey);
   border-left: solid 4px var(--dark-grey);
   border-bottom: solid 4px var(--dark-grey);
-
 }
+
 
 .second-box {
   background-color: var(--dark-grey);
+  /* z-index: 1; */
 }
 
 .inner-second-box {

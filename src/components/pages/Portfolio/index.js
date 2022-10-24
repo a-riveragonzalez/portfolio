@@ -6,8 +6,8 @@ export default function Portfolio() {
   return (
     <div>
       <h1>Portfolio Page</h1>
-      <section class="cards">
-          <article class="first-card">
+      <section className="cards">
+          <article className="first-card">
             <a href="https://impulse-the-game.herokuapp.com/">
               <img
                 src="./assets/impulsescreenshot.png"
@@ -20,7 +20,7 @@ export default function Portfolio() {
                 structure, Cloudinary, Bcrypt, .ENV, jQuery, Bootstrap, HTML,
                 CSS, Google Fonts
               </p>
-              <p class="project-summary">
+              <p className="project-summary">
                 GitHub Repository :
                 {/* <a href="https://github.com/LujanSolo/Impulse"
                   >https://github.com/LujanSolo/Impulse</a
@@ -47,7 +47,7 @@ export default function Portfolio() {
                 HTML, CSS, JavaScript, jQuery, Bootstrap, MomentJS, Google
                 Fonts, TicketMaster API, Google Maps API
               </p>
-              <p class="project-summary">
+              <p className="project-summary">
                 GitHub Repository :
                 {/* <a href="https://github.com/AASports89/Event-Fan-Follow"
                   >https://github.com/AASports89/Event-Fan-Follow</a
@@ -74,7 +74,7 @@ export default function Portfolio() {
                 HTML, CSS, JavaScript, jQuery, Bootstrap, MomentJS, Google
                 Fonts, OpenWeather API
               </p>
-              <p class="project-summary">
+              <p className="project-summary">
                 GitHub Repository :
                 {/* <a href="https://github.com/a-riveragonzalez/weather-dashboard"
                   >https://github.com/a-riveragonzalez/weather-dashboard</a

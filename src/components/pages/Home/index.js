@@ -6,7 +6,9 @@ export default function Home() {
     <section className="home ">
       <article className="content-container row">
         <div className="col-sm-12 col-md-6 first-box">
-          <div className="inner-first-box"></div>
+          <div className="inner-first-box">
+  
+          </div>
         </div>
 
         <div className="col-sm-12 col-md-6 second-box">

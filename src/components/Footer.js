@@ -11,7 +11,7 @@ export default function Footer() {
         rel="noopener noreferrer"
         className="p-3"
       >
-        <i class="fa-brands fa-github fa-2xl custom-icon"></i>
+        <i className="fa-brands fa-github fa-2xl custom-icon"></i>
       </a>
       <a
         href="https://www.linkedin.com/in/arelyriveragonzalez"
@@ -19,7 +19,7 @@ export default function Footer() {
         rel="noopener noreferrer"
         className="p-3"
       >
-        <i class="fa-brands fa-linkedin fa-2xl custom-icon"></i>
+        <i className="fa-brands fa-linkedin fa-2xl custom-icon"></i>
       </a>
     </div>
   );
