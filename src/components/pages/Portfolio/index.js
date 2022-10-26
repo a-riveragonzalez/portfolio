@@ -25,7 +25,6 @@ export default function Portfolio() {
           src="./assets/event-fan-follow.gif"
           alt="Second slide"
         />
-
         <Carousel.Caption>
           <h3>Second slide label</h3>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
@@ -39,7 +38,6 @@ export default function Portfolio() {
           src="./assets/1weather.png"
           alt="Third slide"
         />
-
         <Carousel.Caption>
           <h3>Third slide label</h3>
           <p>
