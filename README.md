@@ -62,7 +62,7 @@ N/A
 ## License
 This project is covered under the <a href="https://opensource.org/licenses/MIT">MIT License</a>
 
-## Demo Link or Deployed Link
+## Deployed Link
 https://a-riveragonzalez.github.io/portfolio/
 ## GitHub Repository
 https://github.com/a-riveragonzalez/portfolio
