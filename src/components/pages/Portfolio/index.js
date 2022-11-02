@@ -4,7 +4,7 @@ import "./portfolio.css";
 
 export default function Portfolio() {
   return (
-    <Carousel fade>
+    <Carousel fade className="portfolio">
       {/* ********************* Item 1 ************************ */}
       <Carousel.Item>
         <img

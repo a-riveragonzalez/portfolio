@@ -4,14 +4,14 @@ import "./about.css";
 export default function About() {
   return (
     <section className="about">
-      <h2>About Me</h2>
-      <article className="row justify-content-around">
+      <h2 className="mb-3">About Me</h2>
+      <article className="row justify-content-around ">
         <img
           src="./assets/arg-face.png"
           alt="picture of Arely Rivera"
-          className="col-5"
+          className="col-md-5 col-sm-12"
         />
-        <p className="col-5">
+        <p className="col-md-5 col-sm-12 about-text">
           I'm a Full Stack Developer with a
           Bachelor's Degree in Psychology from Antioch University. I recently
           earned a certificate in Full Stack Development at UCLA Extension,

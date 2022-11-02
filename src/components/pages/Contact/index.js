@@ -54,13 +54,13 @@ export default function Contact() {
 
   return (
     <div className="contact-me">
-      <h1 className="">Contact Me</h1>
+      <h1 className="text-center">Contact Me</h1>
 
       {/* form  */}
-      <form>
+      <form className="px-5 py-1">
         {/* label name, input name, label email, input email, label message, input text area, submit btn*/}
-        <div className="form-group">
-          <label for="name">Name</label>
+        <div className="form-group ">
+          <label for="name" className="py-1 ">Name</label>
           <input
             value={name}
             name="name"
@@ -72,7 +72,7 @@ export default function Contact() {
         </div>
 
         <div className="form-group">
-          <label for="email">Email address</label>
+          <label for="email" className="py-1 ">Email address</label>
           <input
             value={email}
             name="email"
@@ -84,7 +84,7 @@ export default function Contact() {
         </div>
 
         <div className="form-group">
-          <label for="message">Message</label>
+          <label for="message" className="py-1 ">Message</label>
           <textarea
             value={message}
             name="message"
@@ -99,7 +99,7 @@ export default function Contact() {
         <button
           type="submit"
           onClick={handleFormSubmit}
-          class="btn btn-primary"
+          class="btn btn-primary mt-2"
         >
           Submit
         </button>
@@ -108,34 +108,38 @@ export default function Contact() {
       <p>{status}</p>
 
       {/* contact information */}
+
       <p>
         Email :
-        <a href="mailto:arelyrivera1996@gmail.com" className="p-3">
+        <a href="mailto:arelyrivera1996@gmail.com" className="p-1">
           arelyrivera1996@gmail.com
         </a>
       </p>
+
       <p>
         LinkedIn :
         <a
           href="https://www.linkedin.com/in/arelyriveragonzalez"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-3"
+          className="p-1"
         >
           https://www.linkedin.com/in/arelyriveragonzalez
         </a>
       </p>
+
       <p>
         GitHub :
         <a
           href="https://github.com/a-riveragonzalez"
           target="_blank"
           rel="noopener noreferrer"
-          className="p-3"
+          className="p-1"
         >
           https://github.com/a-riveragonzalez
         </a>
       </p>
+
     </div>
   );
 }

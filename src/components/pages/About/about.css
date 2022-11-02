@@ -4,6 +4,8 @@
     --light-grey: #eeeeee;
 }  
 
-.about {
-    margin-top: 56px;
+.about-text {
+    border: 1px solid var(--teal);
+    margin: auto;
+    padding: 30px;
 }

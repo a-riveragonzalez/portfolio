@@ -5,5 +5,10 @@
 }  
 
 .resume {
-    margin-top: 56px;
+    /* margin-top: 56px; */
+    
+}
+
+.card {
+    border-color: var(--teal)!important;
 }

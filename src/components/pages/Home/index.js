@@ -7,7 +7,7 @@ export default function Home() {
       <article className="content-container row">
         <div className="col-sm-12 col-md-6 first-box">
           <div className="inner-first-box">
-  
+            
           </div>
         </div>
 
