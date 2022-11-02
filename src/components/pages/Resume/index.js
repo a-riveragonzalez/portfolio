@@ -8,7 +8,7 @@ export default function Resume() {
 
       {/* todo : Link to download resume  */}
       <a
-        href="https://drive.google.com/file/d/1LIkMVGFRjzN_IkHq7whMZ7kvvePBg1W0/view?usp=sharing"
+        href="https://drive.google.com/file/d/1DvMTtwreNFTG1Sg9Q9M6F6qT1pVAMGJn/view?usp=sharing"
         className="btn btn-primary btn-block w-50"
         target="_blank"
         rel="noopener noreferrer"
