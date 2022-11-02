@@ -7,7 +7,7 @@ export default function About() {
       <h2 className="mb-3">About Me</h2>
       <article className="row justify-content-around ">
         <img
-          src="./assets/arg-face.png"
+          src="./assets/arely-riv.jpg"
           alt="picture of Arely Rivera"
           className="col-md-5 col-sm-12"
         />
