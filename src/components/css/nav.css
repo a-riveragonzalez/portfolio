@@ -77,4 +77,10 @@
 /* contact nav li */
 .nav-contact-me {
     margin-right: 0px;
+    transition-duration: 500ms;
+}
+
+.nav-contact:hover {
+    margin-left: 0px;
+    transition-duration: 500ms;
 }
