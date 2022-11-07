@@ -1,11 +1,15 @@
 :root {
-    --dark-grey: #393e46;
-    --teal: #4ecca3;
-    --light-grey: #eeeeee;
-}  
+  --dark-grey: #393e46;
+  --teal: #4ecca3;
+  --light-grey: #eeeeee;
+}
+
+.about {
+  background-color: var(--dark-grey);
+}
 
 .about-text {
-    border: 1px solid var(--teal);
-    margin: auto;
-    padding: 30px;
+  border: 1px solid var(--teal);
+  margin: auto;
+  padding: 30px;
 }

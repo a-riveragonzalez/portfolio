@@ -3,8 +3,12 @@ import "./home.css";
 
 export default function Home() {
   return (
-    <section className="home " id="home">
-      <article className="content-container row">
+    <section className="home bg-img bg-img-1" id="home">
+      <div className="home-text-container">
+
+      </div>
+
+      {/* <article className="content-container row">
         <div className="col-sm-12 col-md-6 first-box">
           <div className="inner-first-box">
             
@@ -20,7 +24,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </article>
+      </article> */}
     </section>
   );
 }

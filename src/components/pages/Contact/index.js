@@ -128,7 +128,7 @@ export default function Contact() {
         </a>
       </p>
 
-      <p>
+      <p className="mb-0">
         GitHub :
         <a
           href="https://github.com/a-riveragonzalez"

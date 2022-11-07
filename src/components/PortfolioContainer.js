@@ -41,10 +41,10 @@ export default function PortfolioContainer() {
       {<NavBar />}
       {/* {renderPage()} */}
       {<Home />}
-      {<Portfolio />}
-      {<About />}
-      {<Resume />}
-      {<Contact />}
+      {/* {<Portfolio />} */}
+      {/* {<About />} */}
+      {/* {<Resume />} */}
+      {/* {<Contact />} */}
 
       {<Footer />}
     </div>

@@ -10,7 +10,7 @@ p a {
 }
 
 .contact-me {
-  /* margin-top: 56px; */
+  background-color: var(--dark-grey);
 }
 
 .btn-primary {
