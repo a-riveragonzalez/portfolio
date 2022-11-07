@@ -3,7 +3,7 @@ import "./about.css";
 
 export default function About() {
   return (
-    <section className="about">
+    <section className="about" id="about">
       <h2 className="mb-3">About Me</h2>
       <article className="row justify-content-around ">
         <img

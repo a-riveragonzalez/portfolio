@@ -3,7 +3,7 @@ import "./home.css";
 
 export default function Home() {
   return (
-    <section className="home ">
+    <section className="home " id="home">
       <article className="content-container row">
         <div className="col-sm-12 col-md-6 first-box">
           <div className="inner-first-box">

@@ -1,3 +1,15 @@
+/* **************** override bootstrap **************** */
+.nav {
+  --bs-nav-link-color: white !important;
+}
+
+.nav-link:hover {
+  margin-left: 0px !important;
+  transition-duration: 500ms !important;
+  transition: 0ms;
+}
+
+/* **************** customizing the nav bar **************** */
 /* makes the nav stay at the top */
 .side-nav {
   position: fixed;
@@ -5,82 +17,55 @@
   z-index: 10;
 }
 
-/* removes the bullet points in li's */
-.nav-ul {
-  list-style: none;
-}
-
-/* removes the backgroun color */
+/* removes the background color */
 .side-nav,
-.nav-ul,
-.nav-li,
 .nav-i,
 .nav-a {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 .nav-i {
   padding-left: 20px;
 }
 
-.nav-a {
-  text-decoration: none;
-  color: white;
-}
-
 /* ******************** individual nav icons ******************** */
 
 /* home nav li */
 .nav-home {
-  margin-left: -150px;
-  transition-duration: 500ms;
-}
-
-.nav-home:hover {
-  margin-left: 0px;
-  transition-duration: 500ms;
+  margin-left: -72px;
+  transition-duration: 500ms !important;
 }
 
 /* projects nav li */
 .nav-port {
-  margin-left: -165px;
-  transition-duration: 500ms;
-}
-
-.nav-port:hover {
-  margin-left: 0px;
-  transition-duration: 500ms;
+  margin-left: -85px;
+  transition-duration: 500ms !important;
 }
 
 /* about nav li */
 .nav-about {
-  margin-left: -150px;
-  transition-duration: 500ms;
-}
-
-.nav-about:hover {
-  margin-left: 0px;
-  transition-duration: 500ms;
+  margin-left: -67px;
+  transition-duration: 500ms !important;
 }
 
 /* skills/resume nav li */
 .nav-skill {
-  margin-left: -142px;
-  transition-duration: 500ms;
-}
-
-.nav-skill:hover {
-  margin-left: 0px;
-  transition-duration: 500ms;
+  margin-left: -54px;
+  transition-duration: 500ms !important;
 }
 
 /* contact nav li */
 .nav-contact-me {
-    margin-right: 0px;
-    transition-duration: 500ms;
+  margin-left: -84px;
+  transition-duration: 500ms !important;
 }
 
-.nav-contact:hover {
-    margin-left: 0px;
-    transition-duration: 500ms;
-}
+/* all hover effects */
+.nav-home:hover,
+.nav-port:hover,
+.nav-about:hover,
+.nav-skill:hover,
+.nav-contact-me:hover {
+  margin-left: 0px;
+  transition-duration: 500ms !important;
+} 

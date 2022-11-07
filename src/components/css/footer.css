@@ -1,9 +1,16 @@
+:root {
+  --dark-grey: #393e46;
+  --teal: #4ecca3;
+  --light-grey: #eeeeee;
+}
+
 .footer {
   width: 100%;
   position: relative;
   bottom: 0;
   z-index: 5;
   margin-top: auto;
+  background-color: var(--dark-grey);
 }
 
 .custom-icon {

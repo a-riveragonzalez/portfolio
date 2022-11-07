@@ -3,7 +3,7 @@ import "./resume.css";
 
 export default function Resume() {
   return (
-    <div className="resume text-center">
+    <div className="resume text-center" id="resume">
       <h1>Resume</h1>
 
       {/* todo : Link to download resume  */}
