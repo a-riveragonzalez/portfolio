@@ -57,18 +57,22 @@ const projectArray = [
 
 export default function Portfolio() {
   return (
-    <div id="portfolio">
-      <Row xs={1} md={2} className="g-4 card-container">
+    <div id="portfolio" className="portfolio text-center ">
+      <div className="diagonal-line"> </div>
+      <h2 className="mb-3">Projects</h2>
+      <Row xs={1} md={2} lg={3} className="g-4 card-container">
         {projectArray.map((project) => (
           <Col key={project.name}>
             <Card>
               <Card.Img variant="top" src={project.imgSrc} />
               <Card.Body>
-                <Card.Title> {project.name}</Card.Title>
-                <Card.Text>
+                <Card.Title className="text-dark"> {project.name}</Card.Title>
+                <Card.Text className="text-dark">
                   {project.description}
-                  <a href={project.liveLink} className=""> Demo </a>
-                  <a href={project.githubLink} className=""><i class="fa-solid fa-code"></i></a>
+                </Card.Text>
+                <Card.Text className="text-light">
+                  <a href={project.liveLink} className="btn btn-primary mx-3"> Demo </a>
+                  <a href={project.githubLink} className="btn btn-primary"> <i className="fa-solid fa-code"></i></a>
                 </Card.Text>
               </Card.Body>
             </Card>

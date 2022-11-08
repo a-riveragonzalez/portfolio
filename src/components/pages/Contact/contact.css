@@ -16,4 +16,5 @@ p a {
 .btn-primary {
   background-color: #4ecca3 !important;
   --bs-btn-border-color: #4ecca3 !important;
+  color: white !important;
 }
