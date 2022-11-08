@@ -2,7 +2,6 @@ import React, { useState } from "react";
 // import NavTabs from "./NavTabs";
 import NavBar from "./Nav";
 import Footer from "./Footer";
-import Diagonal from "./Diagonal";
 import Horizontal from "./Horizontal";
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -43,7 +42,6 @@ export default function PortfolioContainer() {
       {<NavBar />}
       {/* {renderPage()} */}
       {<Home />}
-      {/* {<Diagonal />} */}
       {<Portfolio />} 
       {<Horizontal />} 
 

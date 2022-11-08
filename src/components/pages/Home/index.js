@@ -1,6 +1,6 @@
 import React from "react";
 import { Parallax } from "react-parallax";
-import CyberCity from "../../bg-imgs/damiano-ferrante-gS5GbmoUUnc-unsplash1.jpg";
+import CyberCity from "../../../images/bg-imgs/damiano-ferrante-gS5GbmoUUnc-unsplash1.jpg";
 import "./home.css";
 
 export default function Home() {
