@@ -1,5 +1,5 @@
 {
-  "homepage":"https://a-riveragonzalez.github.io/portfolio/",
+  "homepage": "https://a-riveragonzalez.github.io/portfolio/",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -16,6 +16,7 @@
     "react": "^18.2.0",
     "react-bootstrap": "^2.5.0",
     "react-dom": "^18.2.0",
+    "react-parallax": "^3.5.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },

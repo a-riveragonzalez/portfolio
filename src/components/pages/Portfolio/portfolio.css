@@ -1,10 +1,9 @@
 :root {
-    --dark-grey: #393e46;
-    --teal: #4ecca3;
-    --light-grey: #eeeeee;
+  --dark-grey: #1d1419;
+  --teal: #4ecca3;
+  --light-grey: #eeeeee;
 }
 
-.portfolio {
-    background-color: var(--dark-grey);
-
+.card-container {
+    margin-top: 60px;
 }
