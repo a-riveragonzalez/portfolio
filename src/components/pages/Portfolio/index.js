@@ -59,7 +59,7 @@ export default function Portfolio() {
   return (
     <div id="portfolio" className="portfolio text-center ">
       <div className="diagonal-line"> </div>
-      <h2 className="mb-3">Projects</h2>
+      <h2 className="mb-3 ">Projects</h2>
       <Row xs={1} md={2} lg={3} className="g-4 card-container">
         {projectArray.map((project) => (
           <Col key={project.name}>
