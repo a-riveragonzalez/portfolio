@@ -46,8 +46,8 @@ export default function PortfolioContainer() {
       {<Horizontal />} 
 
       {<About />}
-      {/* {<Resume />} */}
-      {/* {<Contact />} */}
+      {<Resume />}
+      {<Contact />}
 
       {<Footer />}
     </div>

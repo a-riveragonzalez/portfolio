@@ -5,9 +5,19 @@
 }  
 
 .resume {
-    background-color: var(--dark-grey);
-    
+    padding: 60px 40px 40px 40px;
+  /* padding-bottom: 40px; */
+  background: rgb(115, 220, 231);
+  background: linear-gradient(
+    90deg,
+    rgba(115, 220, 231, 1) 0%,
+    rgba(109, 207, 217, 1) 9%,
+    rgba(84, 159, 165, 1) 63%,
+    rgba(62, 115, 120, 1) 89%,
+    rgba(68, 126, 131, 1) 100%
+  );
 }
+
 
 .card {
     border-color: var(--teal)!important;

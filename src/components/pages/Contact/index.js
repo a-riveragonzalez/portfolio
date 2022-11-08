@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Parallax } from "react-parallax";
+import Jellyfish from "../../../images/bg-imgs/jared-poledna-ULyDZmchhgc-unsplash.jpg";
 import "./contact.css";
 
 export default function Contact() {
@@ -20,27 +22,26 @@ export default function Contact() {
   const handleFormSubmit = (event) => {
     event.preventDefault();
 
-    // checking to see if all input fields are full 
+    // checking to see if all input fields are full
     if (email && name && message) {
-      // checking to make sure email is valid 
+      // checking to make sure email is valid
       if (checkEmail(email)) {
-        const encodedSubject = "Email From Portfolio"
-        const encodedBody = `${message} - from ${name} ${email}`
+        const encodedSubject = "Email From Portfolio";
+        const encodedBody = `${message} - from ${name} ${email}`;
 
         // const link = `https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=arelyrivera1996@gmail.com&su=${encodedSubject}&body=${encodedBody}`
 
         // hyper link to open mail client and populate subject and body --- still working on this
         const link = `mailto:arelyrivera1996@gmail.com?
         subject=${encodedSubject}&amp;
-        body=${encodedBody}`
+        body=${encodedBody}`;
 
         window.location = link;
-
       } else {
-        setstatus("email is invalid")
+        setstatus("email is invalid");
       }
     } else {
-      setstatus("all input fields need to be filled ")
+      setstatus("all input fields need to be filled ");
     }
   };
 
@@ -53,93 +54,104 @@ export default function Contact() {
   };
 
   return (
-    <div className="contact-me" id="contact">
-      <h1 className="text-center">Contact Me</h1>
+    <Parallax
+      bgImage={Jellyfish}
+      bgImageAlt="jellyfish in pink and light blue"
+      strength={800}
+      className="contact-image"
+    >
+      <div className="contact-content" id="contact">
+        <div className="contact-text">
+          <h1 className="text-center">Contact Me</h1>
 
-      {/* form  */}
-      <form className="px-5 py-1">
-        {/* label name, input name, label email, input email, label message, input text area, submit btn*/}
-        <div className="form-group ">
-          <label for="name" className="py-1 ">Name</label>
-          <input
-            value={name}
-            name="name"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="name"
-            class="form-control"
-          />
+          <form className="px-5 py-1">
+            <div className="form-group ">
+              <label for="name" className="py-1 ">
+                Name
+              </label>
+              <input
+                value={name}
+                name="name"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="name"
+                class="form-control"
+              />
+            </div>
+
+            <div className="form-group">
+              <label for="email" className="py-1 ">
+                Email address
+              </label>
+              <input
+                value={email}
+                name="email"
+                onChange={handleInputChange}
+                type="email"
+                placeholder="email"
+                class="form-control"
+              />
+            </div>
+
+            <div className="form-group">
+              <label for="message" className="py-1 ">
+                Message
+              </label>
+              <textarea
+                value={message}
+                name="message"
+                onChange={handleInputChange}
+                type="text"
+                placeholder="message"
+                class="form-control"
+                rows="3"
+              />
+            </div>
+
+            <button
+              type="submit"
+              onClick={handleFormSubmit}
+              class="btn btn-primary mt-2"
+            >
+              Submit
+            </button>
+          </form>
+
+          <p>{status}</p>
+
+
+          <p className="text-center">
+            Email :
+            <a href="mailto:arelyrivera1996@gmail.com" className="p-1">
+              arelyrivera1996@gmail.com
+            </a>
+          </p>
+
+          <p className="text-center">
+            LinkedIn :
+            <a
+              href="https://www.linkedin.com/in/arelyriveragonzalez"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-1"
+            >
+              https://www.linkedin.com/in/arelyriveragonzalez
+            </a>
+          </p>
+
+          <p className="mb-0 text-center">
+            GitHub :
+            <a
+              href="https://github.com/a-riveragonzalez"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-1"
+            >
+              https://github.com/a-riveragonzalez
+            </a>
+          </p> 
         </div>
-
-        <div className="form-group">
-          <label for="email" className="py-1 ">Email address</label>
-          <input
-            value={email}
-            name="email"
-            onChange={handleInputChange}
-            type="email"
-            placeholder="email"
-            class="form-control"
-          />
-        </div>
-
-        <div className="form-group">
-          <label for="message" className="py-1 ">Message</label>
-          <textarea
-            value={message}
-            name="message"
-            onChange={handleInputChange}
-            type="text"
-            placeholder="message"
-            class="form-control"
-            rows="3"
-          />
-        </div>
-
-        <button
-          type="submit"
-          onClick={handleFormSubmit}
-          class="btn btn-primary mt-2"
-        >
-          Submit
-        </button>
-      </form>
-
-      <p>{status}</p>
-
-      {/* contact information */}
-
-      <p>
-        Email :
-        <a href="mailto:arelyrivera1996@gmail.com" className="p-1">
-          arelyrivera1996@gmail.com
-        </a>
-      </p>
-
-      <p>
-        LinkedIn :
-        <a
-          href="https://www.linkedin.com/in/arelyriveragonzalez"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-1"
-        >
-          https://www.linkedin.com/in/arelyriveragonzalez
-        </a>
-      </p>
-
-      <p className="mb-0">
-        GitHub :
-        <a
-          href="https://github.com/a-riveragonzalez"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="p-1"
-        >
-          https://github.com/a-riveragonzalez
-        </a>
-      </p>
-
-    </div>
+      </div>
+    </Parallax>
   );
 }

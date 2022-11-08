@@ -9,12 +9,30 @@ p a {
   
 }
 
-.contact-me {
-  background-color: var(--dark-grey);
-}
-
 .btn-primary {
   background-color: #4ecca3 !important;
   --bs-btn-border-color: #4ecca3 !important;
   color: white !important;
 }
+
+.contact-image {
+  position: relative;
+  height: 100vh;
+}
+
+.contact-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  height: 100vh;
+  width: 100%;
+}
+
+.contact-text {
+  background-color: var(--dark-grey);
+  color: white;
+  padding: 1rem;
+  border-radius: 30px;
+}
+
