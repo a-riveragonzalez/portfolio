@@ -11,9 +11,9 @@ export default function Home() {
       bgImageAlt="city that glows in pink and light blue"
       strength={800}
       className="home-image"
-      id="home"
+      
     >
-      <div className="home-content ">
+      <div className="home-content " id="home">
         <div className="home-text text-center">
           <h1>Hi, I'm Arely</h1>
           <h4>I'm a full stack developer from Los Angeles, CA </h4>
