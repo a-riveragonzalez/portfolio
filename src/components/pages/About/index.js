@@ -16,11 +16,27 @@ export default function About() {
         <div className="about-text text-center">
           <h2 className="mb-3">About Me</h2>
           <article className="row justify-content-around ">
-            <img
-              src={ArgFace}
-              alt="picture of Arely Rivera"
-              className="col-xl-3 col-lg-4 col-md-5 col-sm-12 arg-img"
-            />
+            <figure className="snip1033 col-xl-3 col-lg-4 col-md-5 col-sm-12 arg-img">
+              <img src={ArgFace} alt="picture of Arely Rivera" />
+              <figcaption>
+                <div className="left">
+                  <a href="https://github.com/a-riveragonzalez">
+                    <h3>Github <i class="fa-brands fa-github"></i></h3>
+            
+                  </a>
+                </div>
+                <div className="right">
+                  <a href="https://www.linkedin.com/in/arelyriveragonzalez/">
+                    <h3 className="white">LinkedIn <i class="fa-brands fa-linkedin text-dark"></i></h3>
+
+                  </a>
+                </div>
+              </figcaption>
+              <div className="center">
+                <i className="ion-ios-loop-strong fa-solid fa-rotate"></i>
+              </div>
+            </figure>
+
             <p className="col-xl-3 col-lg-4 col-md-5 col-sm-12">
               I'm a Full Stack Developer with a Bachelor's Degree in Psychology
               from Antioch University. I recently earned a certificate in Full
