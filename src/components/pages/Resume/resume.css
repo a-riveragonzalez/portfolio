@@ -5,7 +5,7 @@
 }  
 
 .resume {
-    padding: 60px 40px 40px 40px;
+    padding: 50px 40px 40px 40px;
   /* padding-bottom: 40px; */
   background: rgb(115, 220, 231);
   background: linear-gradient(
@@ -21,4 +21,28 @@
 
 .card {
   border-color: var(--teal)!important;
+}
+
+/* *********************************************************************************** */
+
+.inverted-2 {
+  background:
+    linear-gradient( 90deg, #000  50%, #fff 0),
+    linear-gradient(-90deg, #000  50%, #fff 0),
+    linear-gradient( 90deg, #0000 50%, #000 0),
+    linear-gradient(-90deg, #0000 50%, #000 0);
+  background-repeat: no-repeat;
+  background-size: 200% 51%;
+  background-position: top left, bottom right;
+  -webkit-background-clip: text, text, padding-box, padding-box;
+          background-clip: text, text, padding-box, padding-box;
+  transition: 0.8s
+}
+
+.inverted-2:hover {
+  background-position: top right, bottom left;
+}
+
+.inverted-2:hover h5, .inverted-2:hover p, .inverted-2:hover hr {
+  color: black;
 }

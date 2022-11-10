@@ -30,3 +30,16 @@
 }
 
 /* ************************************************************************************ */
+.flip-card {
+  position: relative;
+  width: 100%;
+}
+
+.flip-card-front {
+/* position: absolute; */
+}
+
+.flip-card-back {
+/* position: absolute; */
+}
+
