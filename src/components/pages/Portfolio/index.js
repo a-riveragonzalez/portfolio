@@ -34,7 +34,7 @@ const projectArray = [
     githubLink: "https://github.com/AASports89/Event-Fan-Follow",
     imgSrc: EventFanFollow,
     description:
-      "Event-Fan-Follow is a web-based application that centers on retrieving and processing data from the API URLs, making it a user-friendly method to simultaneously display event ticket information combined with geolocation directly on the client side.",
+      "A web-based application that centers on retrieving and processing data from the API URLs, making it a user-friendly method to simultaneously display event ticket information combined with geolocation directly on the client side.",
   },
   {
     name: "Tech Blog",
@@ -67,19 +67,26 @@ export default function Portfolio() {
     <div id="portfolio" className="portfolio text-center ">
       <div className="diagonal-line"> </div>
       <h2 className="mb-3 ">Projects</h2>
+
       <Row xs={1} md={2} lg={3} className="g-4 card-container">
         {projectArray.map((project) => (
           <Col key={project.name}>
-            <Card>
+            <Card >
               <Card.Img variant="top" src={project.imgSrc} />
-              <Card.Body>
+              <Card.Body className="">
                 <Card.Title className="text-dark"> {project.name}</Card.Title>
                 <Card.Text className="text-dark">
                   {project.description}
                 </Card.Text>
                 <Card.Text className="text-light">
-                  <a href={project.liveLink} className="btn btn-primary mx-3"> Demo </a>
-                  <a href={project.githubLink} className="btn btn-primary"> <i className="fa-solid fa-code"></i></a>
+                  <a href={project.liveLink} className="btn btn-primary mx-3">
+                    {" "}
+                    Demo{" "}
+                  </a>
+                  <a href={project.githubLink} className="btn btn-primary">
+                    {" "}
+                    <i className="fa-solid fa-code"></i>
+                  </a>
                 </Card.Text>
               </Card.Body>
             </Card>

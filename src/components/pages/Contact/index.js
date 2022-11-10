@@ -32,9 +32,7 @@ export default function Contact() {
         // const link = `https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=arelyrivera1996@gmail.com&su=${encodedSubject}&body=${encodedBody}`
 
         // hyper link to open mail client and populate subject and body --- still working on this
-        const link = `mailto:arelyrivera1996@gmail.com?
-        subject=${encodedSubject}&amp;
-        body=${encodedBody}`;
+        const link = `mailto:arelyrivera1996@gmail.com?subject=${encodedSubject}&body=${encodedBody}`;
 
         window.location = link;
       } else {
@@ -64,7 +62,7 @@ export default function Contact() {
         <div className="contact-text">
           <h1 className="text-center">Contact Me</h1>
 
-          <form className="px-5 py-1">
+          <form className="px-5 py-1 text-center">
             <div className="form-group ">
               <label for="name" className="py-1 ">
                 Name
@@ -111,7 +109,7 @@ export default function Contact() {
             <button
               type="submit"
               onClick={handleFormSubmit}
-              class="btn btn-primary mt-2"
+              class="btn btn-primary w-75 mt-3"
             >
               Submit
             </button>
@@ -119,37 +117,12 @@ export default function Contact() {
 
           <p>{status}</p>
 
+          <p className="text-center"><i class="fa-solid fa-envelope"></i> Email: arelyrivera1996@gmail.com</p>
+          <p className="text-center"> <i class="fa-solid fa-location-dot"></i> Los Angeles, CA</p>
+          <p className="text-center"> Want to set up a meeting?</p>
+          <p className="text-center"><a href="https://calendly.com/arelyrivera/30min" className="text-center"><i class="fa-solid fa-mug-saucer"></i> Calendly</a></p>
 
-          <p className="text-center">
-            Email :
-            <a href="mailto:arelyrivera1996@gmail.com" className="p-1">
-              arelyrivera1996@gmail.com
-            </a>
-          </p>
 
-          <p className="text-center">
-            LinkedIn :
-            <a
-              href="https://www.linkedin.com/in/arelyriveragonzalez"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-1"
-            >
-              https://www.linkedin.com/in/arelyriveragonzalez
-            </a>
-          </p>
-
-          <p className="mb-0 text-center">
-            GitHub :
-            <a
-              href="https://github.com/a-riveragonzalez"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="p-1"
-            >
-              https://github.com/a-riveragonzalez
-            </a>
-          </p> 
         </div>
       </div>
     </Parallax>
