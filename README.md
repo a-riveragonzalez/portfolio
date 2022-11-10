@@ -1,12 +1,12 @@
 # Portfolio
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
 
 Personal portfolio showcasing the projects I have worked on and completed. This portfolio uses React, JavaScript, CSS, Bootstrap, and Font Awesome
 
-
-## Table of Contents 
+## Table of Contents
 
 - [User Story](#user-story)
 - [Acceptance Criteria](#acceptance-criteria)
@@ -55,19 +55,32 @@ WHEN I view the footer
 THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
 ```
 
-
 ## Credits
-N/A
+
+Photo by Damiano Ferrante
+on Unsplash
+
+Photo by Jared Poledna
+on Unsplash
+
+Photo by Taras Hrytsak
+on Unsplash
 
 ## License
+
 This project is covered under the <a href="https://opensource.org/licenses/MIT">MIT License</a>
 
 ## Deployed Link
+
 https://a-riveragonzalez.github.io/portfolio/
+
 ## GitHub Repository
+
 https://github.com/a-riveragonzalez/portfolio
+
 ## Preview
-![homepage of portfolio](arg-port.png)
+
+![homepage of portfolio](argporthome.png)
 
 ## Questions
 
@@ -76,5 +89,3 @@ arelyrivera1996@gmail.com
 
 To check out more of my work, visit:
 https://github.com/a-riveragonzalez
-
-
