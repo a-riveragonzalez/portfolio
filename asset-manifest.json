@@ -1,13 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.eb9473cd.css",
-    "main.js": "/portfolio/static/js/main.19c9feb8.js",
+    "main.css": "/portfolio/static/css/main.a0e7cd5e.css",
+    "main.js": "/portfolio/static/js/main.0dfd2159.js",
+    "static/media/jared-poledna-ULyDZmchhgc-unsplash.jpg": "/portfolio/static/media/jared-poledna-ULyDZmchhgc-unsplash.5bab5822c8e4d13f5146.jpg",
+    "static/media/damiano-ferrante-gS5GbmoUUnc-unsplash1.jpg": "/portfolio/static/media/damiano-ferrante-gS5GbmoUUnc-unsplash1.8b6bf72f5cf1dd58da51.jpg",
+    "static/media/eventfanfollow.png": "/portfolio/static/media/eventfanfollow.3d85cf04471a1a66b8b8.png",
+    "static/media/taras-hrytsak-VIEfAkW-9c0-unsplash.jpg": "/portfolio/static/media/taras-hrytsak-VIEfAkW-9c0-unsplash.2a283be0b0abeaa28771.jpg",
+    "static/media/arg-face.png": "/portfolio/static/media/arg-face.f4a25267903445666a58.png",
+    "static/media/techblog.png": "/portfolio/static/media/techblog.46a3fa84952fb0572d33.png",
+    "static/media/ichooseyoumatchpage.png": "/portfolio/static/media/ichooseyoumatchpage.3c9f187a4d2ac9bcdf11.png",
+    "static/media/weatherdashboardpage.png": "/portfolio/static/media/weatherdashboardpage.558c3e4b482221df711b.png",
+    "static/media/impulsestartgame.png": "/portfolio/static/media/impulsestartgame.ad1fc67b4fe0a05687ac.png",
+    "static/media/note-taker.png": "/portfolio/static/media/note-taker.068591da43f4a5ee1674.png",
+    "static/media/react.png": "/portfolio/static/media/react.0258a39c0da07bd24e39.png",
+    "static/media/my-sql.png": "/portfolio/static/media/my-sql.503cfdd887631c88e6bc.png",
+    "static/media/jquery.png": "/portfolio/static/media/jquery.a637f53ad6ad311f6b4c.png",
     "index.html": "/portfolio/index.html",
-    "main.eb9473cd.css.map": "/portfolio/static/css/main.eb9473cd.css.map",
-    "main.19c9feb8.js.map": "/portfolio/static/js/main.19c9feb8.js.map"
+    "main.a0e7cd5e.css.map": "/portfolio/static/css/main.a0e7cd5e.css.map",
+    "main.0dfd2159.js.map": "/portfolio/static/js/main.0dfd2159.js.map"
   },
   "entrypoints": [
-    "static/css/main.eb9473cd.css",
-    "static/js/main.19c9feb8.js"
+    "static/css/main.a0e7cd5e.css",
+    "static/js/main.0dfd2159.js"
   ]
 }
