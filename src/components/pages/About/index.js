@@ -21,19 +21,19 @@ export default function About() {
               <figcaption>
                 <div className="left">
                   <a href="https://github.com/a-riveragonzalez">
-                    <h3>Github <i class="fa-brands fa-github"></i></h3>
+                    <h3>Github <i class="fa-brands fa-github"></i>  |</h3>
             
                   </a>
                 </div>
                 <div className="right">
                   <a href="https://www.linkedin.com/in/arelyriveragonzalez/">
-                    <h3 className="white">LinkedIn <i class="fa-brands fa-linkedin text-dark"></i></h3>
+                    <h3 className="white">| LinkedIn <i class="fa-brands fa-linkedin text-dark"></i></h3>
 
                   </a>
                 </div>
               </figcaption>
-              <div className="center">
-                <i className="ion-ios-loop-strong fa-solid fa-rotate"></i>
+              <div className="center ">
+                <i className="ion-ios-loop-strong  "></i>
               </div>
             </figure>
 

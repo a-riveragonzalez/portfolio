@@ -30,6 +30,8 @@
 }
 
 /* ************************************************************************* */
+@import url(https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+
 figure.snip1033 {
   font-family: 'Raleway', Arial, sans-serif;
   color: #fff;
@@ -136,7 +138,8 @@ figure.snip1033 .white {
 }
 figure.snip1033:hover img,
 figure.snip1033.hover img {
-  opacity: 0.5;
+  opacity: 0.3;
+  transition-duration: 500ms;
 }
 figure.snip1033:hover figcaption .left h3,
 figure.snip1033.hover figcaption .left h3 {

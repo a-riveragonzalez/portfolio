@@ -4,12 +4,19 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "./portfolio.css";
 
+import Ichooseyou from "../../../images/portfolio-imgs/ichooseyoumatchpage.png";
+import Impulse from "../../../images/portfolio-imgs/impulsestartgame.png";
+import EventFanFollow from "../../../images/portfolio-imgs/eventfanfollow.png";
+import Techblog from "../../../images/portfolio-imgs/techblog.png";
+import WeatherDashboard from "../../../images/portfolio-imgs/weatherdashboardpage.png";
+import Notetaker from "../../../images/portfolio-imgs/note-taker.png";
+
 const projectArray = [
   {
     name: "I Choose You",
     liveLink: "https://ichooseyou.herokuapp.com",
     githubLink: "https://github.com/a-riveragonzalez/i-choose-you",
-    imgSrc: "",
+    imgSrc: Ichooseyou,
     description:
       "A responsive MERN dating web application that allows users to create Pokemon-themed profiles, take a quiz to determine their Pokemon, and match with other users to chat.",
   },
@@ -17,7 +24,7 @@ const projectArray = [
     name: "Impulse: The Game",
     liveLink: "https://impulse-the-game.herokuapp.com/",
     githubLink: "https://github.com/LujanSolo/Impulse",
-    imgSrc: "",
+    imgSrc: Impulse,
     description:
       "A full stack browser-board-game where your character advances through game squares upon which they are compelled to Buy an Item or choose a Life Event Card that will impact your total Money and Mood Levels.",
   },
@@ -25,15 +32,15 @@ const projectArray = [
     name: "Event Fan Follow",
     liveLink: "https://aasports89.github.io/Event-Fan-Follow/",
     githubLink: "https://github.com/AASports89/Event-Fan-Follow",
-    imgSrc: "",
+    imgSrc: EventFanFollow,
     description:
-      "Event-Fan-Follow is a web-based application utilizing HTML, CSS, JavaScript, JQuery, TicketMaster, and Google Maps APIs. This application centers on retrieving and processing data from the API URLs, making it a user-friendly method to simultaneously display event ticket information combined with geolocation directly on the client side.",
+      "Event-Fan-Follow is a web-based application that centers on retrieving and processing data from the API URLs, making it a user-friendly method to simultaneously display event ticket information combined with geolocation directly on the client side.",
   },
   {
     name: "Tech Blog",
     liveLink: "https://tech-blog-6.herokuapp.com/",
     githubLink: "https://github.com/a-riveragonzalez/tech-blog",
-    imgSrc: "",
+    imgSrc: Techblog,
     description:
       "A web application, similar to a Wordpress site, where developers can publish their blog posts and comment on other developers posts as well.",
   },
@@ -41,7 +48,7 @@ const projectArray = [
     name: "Weather Dashboard",
     liveLink: "https://a-riveragonzalez.github.io/weather-dashboard/",
     githubLink: "https://github.com/a-riveragonzalez/weather-dashboard",
-    imgSrc: "",
+    imgSrc: WeatherDashboard,
     description:
       "A weather dashboard that allows users to search for a city and get its current weather and a five day forecast.",
   },
@@ -49,9 +56,9 @@ const projectArray = [
     name: "Note Taker",
     liveLink: "https://rocky-headland-83783.herokuapp.com/",
     githubLink: "https://github.com/a-riveragonzalez/note-taker",
-    imgSrc: "",
+    imgSrc: Notetaker,
     description:
-      "An application that can be used to write, save, and delete notes.",
+      "A web application that can be used to write, save, and delete notes.",
   },
 ];
 
