@@ -69,4 +69,5 @@
 .nav-contact-me:hover {
   margin-left: 0px;
   transition-duration: 500ms !important;
+  color:white !important;
 } 

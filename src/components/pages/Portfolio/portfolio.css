@@ -30,9 +30,13 @@
 }
 
 /* ************************************************************************************ */
-.flip-card {
-  position: relative;
-  width: 100%;
+.flip-card{
+  transition-duration: 100ms;
+}
+
+.flip-card:hover {
+  box-shadow: 10px 5px 5px black;
+  transition-duration: 100ms;
 }
 
 .flip-card-front {
