@@ -15,6 +15,7 @@ export default function About() {
       <section className="about-content" id="about">
         <div className="about-text text-center">
           <h2 className="mb-3">About Me</h2>
+          
           <article className="row justify-content-center ">
             <figure className="snip1033 col-xl-3 col-lg-4 col-md-5 col-sm-12 arg-img ">
               <img src={ArgFace} alt="picture of Arely Rivera" />
