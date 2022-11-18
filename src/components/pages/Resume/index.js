@@ -4,7 +4,7 @@ import "./resume.css";
 export default function Resume() {
   return (
     <div className="resume text-center my-5" id="resume">
-      <h1 className="mb-4">Skills</h1>
+      <h1 className="mb-4">Resume</h1>
 
       <article className="row row-cols-1 row-cols-md-3 justify-content-center ">
         <div className="col mb-4">
@@ -33,14 +33,26 @@ export default function Resume() {
         </div>
       </article>
 
-      <a
-        href="https://drive.google.com/uc?export=download&id=1DvMTtwreNFTG1Sg9Q9M6F6qT1pVAMGJn"
-        className="btn btn-primary btn-block w-50"
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        Download my resume
-      </a>
+      <hr></hr>
+
+      <div>
+        <h3>Like what you see? </h3>
+
+        <div className="d-flex justify-content-center">
+          <div className="card h-100 w-50 inverted-2">
+            <div className="card-body">
+              <a
+                href="https://drive.google.com/uc?export=download&id=1DvMTtwreNFTG1Sg9Q9M6F6qT1pVAMGJn"
+                className="btn btn-primary btn-block w-75"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Download my RESUME
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }
