@@ -15,21 +15,24 @@ export default function About() {
       <section className="about-content" id="about">
         <div className="about-text text-center">
           <h2 className="mb-3">About Me</h2>
-          
+
           <article className="row justify-content-center ">
+            {/* this takes care of the profile picture and the github/linkedin effect */}
             <figure className="snip1033 col-xl-3 col-lg-4 col-md-5 col-sm-12 arg-img ">
               <img src={ArgFace} alt="picture of Arely Rivera" />
               <figcaption>
                 <div className="left">
                   <a href="https://github.com/a-riveragonzalez">
-                    <h3>Github <i class="fa-brands fa-github"></i>  |</h3>
-            
+                    <h3>
+                      Github <i class="fa-brands fa-github"></i> |
+                    </h3>
                   </a>
                 </div>
                 <div className="right">
                   <a href="https://www.linkedin.com/in/arelyriveragonzalez/">
-                    <h3 className="white">| LinkedIn <i class="fa-brands fa-linkedin text-dark"></i></h3>
-
+                    <h3 className="white">
+                      | LinkedIn <i class="fa-brands fa-linkedin text-dark"></i>
+                    </h3>
                   </a>
                 </div>
               </figcaption>
@@ -38,6 +41,7 @@ export default function About() {
               </div>
             </figure>
 
+            {/* possible todo : make this into an accordian with more info */}
             <p className="col-xl-4 col-lg-4 col-md-5 col-sm-12">
               I'm a Full Stack Developer with a Bachelor's Degree in Psychology
               from Antioch University. I recently earned a certificate in Full
