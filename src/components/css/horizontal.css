@@ -5,3 +5,7 @@
 .icon:hover {
     filter: none;
 }
+
+.horizontal-container {
+    width: 100%;
+}
