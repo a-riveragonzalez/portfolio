@@ -15,7 +15,7 @@ import HandlebarsPic from "../images/icons/handlebars.png";
 
 export default function Horizontal() {
   return (
-    <div className="horizontal-container row">
+    <div className="horizontal-container row py-1">
       <img className="col-2 col-md-1 icon" src={HtmlPic}></img>
       <img className="col-2 col-md-1 icon" src={CssPic}></img>
       <img className="col-2 col-md-1 icon" src={JavaScriptPic}></img>
