@@ -16,7 +16,7 @@ export default function About() {
         <div className="about-text text-center">
           <h2 className="mb-3">About Me</h2>
 
-          <article className="row justify-content-center ">
+          <article className="row justify-content-center align-items-center">
             {/* this takes care of the profile picture and the github/linkedin effect */}
             <figure className="snip1033 col-xl-3 col-lg-4 col-md-5 col-sm-12 arg-img ">
               <img src={ArgFace} alt="picture of Arely Rivera" />
