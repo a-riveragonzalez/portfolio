@@ -9,7 +9,7 @@ import Impulse from "../../../images/portfolio-imgs/impulsestartgame.png";
 import EventFanFollow from "../../../images/portfolio-imgs/eventfanfollow.png";
 import Techblog from "../../../images/portfolio-imgs/techblog.png";
 import WeatherDashboard from "../../../images/portfolio-imgs/weatherdashboardpage.png";
-import Notetaker from "../../../images/portfolio-imgs/note-taker.png";
+import ReduxStore from "../../../images/portfolio-imgs/shop-shop.png";
 
 export default function Portfolio() {
   return (
@@ -45,7 +45,7 @@ export default function Portfolio() {
                     className="btn btn-primary"
                   >
                     {" "}
-                    GitHub 
+                    GitHub
                   </a>
                 </div>
               </div>
@@ -81,7 +81,7 @@ export default function Portfolio() {
                     className="btn btn-primary"
                   >
                     {" "}
-                    GitHub 
+                    GitHub
                   </a>
                 </div>
               </div>
@@ -90,6 +90,39 @@ export default function Portfolio() {
         </div>
 
         {/* *********** 3rd item *********** */}
+        <div className="col mb-4">
+          <div className="card flip-card  h-100">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
+                <img src={ReduxStore} className="card-img-top" alt="..."></img>
+              </div>
+              <div className="flip-card-back">
+                <div className="card-body">
+                  <h5 className="card-title text-dark">Redux Store</h5>
+                  <p className="card-text text-dark">
+                    E-commerce platform that uses Redux
+                  </p>
+                  <a
+                    href="https://random-store-redux.herokuapp.com/"
+                    className="btn btn-primary mx-3"
+                  >
+                    {" "}
+                    Demo{" "}
+                  </a>
+                  <a
+                    href="https://github.com/a-riveragonzalez/redux-store"
+                    className="btn btn-primary"
+                  >
+                    {" "}
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* *********** 4th item *********** */}
         <div className="col mb-4">
           <div className="card flip-card  h-100">
             <div className="flip-card-inner">
@@ -129,7 +162,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        {/* *********** 4th item *********** */}
+        {/* *********** 5th item *********** */}
         <div className="col mb-4">
           <div className="card flip-card  h-100">
             <div className="flip-card-inner">
@@ -156,7 +189,7 @@ export default function Portfolio() {
                     className="btn btn-primary"
                   >
                     {" "}
-                    GitHub 
+                    GitHub
                   </a>
                 </div>
               </div>
@@ -164,7 +197,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        {/* *********** 5th item *********** */}
+        {/* *********** 6th item *********** */}
         <div className="col mb-4">
           <div className="card flip-card  h-100">
             <div className="flip-card-inner">
@@ -195,40 +228,6 @@ export default function Portfolio() {
                   >
                     {" "}
                     GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        {/* *********** 6th item *********** */}
-        <div className="col mb-4">
-          <div className="card flip-card  h-100">
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img src={Notetaker} className="card-img-top" alt="..."></img>
-              </div>
-              <div className="flip-card-back">
-                <div className="card-body">
-                  <h5 className="card-title text-dark">Note Taker</h5>
-                  <p className="card-text text-dark">
-                    A web application that can be used to write, save, and
-                    delete notes.
-                  </p>
-                  <a
-                    href="https://rocky-headland-83783.herokuapp.com/"
-                    className="btn btn-primary mx-3"
-                  >
-                    {" "}
-                    Demo{" "}
-                  </a>
-                  <a
-                    href="https://github.com/a-riveragonzalez/note-taker"
-                    className="btn btn-primary"
-                  >
-                    {" "}
-                    GitHub 
                   </a>
                 </div>
               </div>
