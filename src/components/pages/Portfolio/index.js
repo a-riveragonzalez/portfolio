@@ -20,7 +20,7 @@ export default function Portfolio() {
       <div className="row row-cols-1 row-cols-md-2 row-cols-xl-3">
         {/* *********** 1st item *********** */}
         <div className="col mb-4">
-          <div className="card flip-card  h-100">
+          <div className="card flip-card h-100">
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img src={Ichooseyou} className="card-img-top" alt="..."></img>
@@ -55,8 +55,8 @@ export default function Portfolio() {
 
         {/* *********** 2nd item *********** */}
         <div className="col mb-4">
-          <div className="card flip-card  h-100">
-            <div className="flip-card-inner">
+          <div className="card flip-card h-100">
+            <div className="flip-card-inner ">
               <div className="flip-card-front">
                 <img src={Impulse} className="card-img-top" alt="..."></img>
               </div>
@@ -64,10 +64,9 @@ export default function Portfolio() {
                 <div className="card-body">
                   <h5 className="card-title text-dark">Impulse: The Game</h5>
                   <p className="card-text text-dark">
-                    A full stack browser-board-game where your character
-                    advances through game squares upon which they are compelled
-                    to Buy an Item or choose a Life Event Card that will impact
-                    your total Money and Mood Levels.
+                    A full stack board game where your character advances and is
+                    compelled to buy an Item card or choose a Life Event Card
+                    that will impact your total Money and Mood Levels.
                   </p>
                   <a
                     href="https://impulse-the-game.herokuapp.com/"
@@ -100,7 +99,9 @@ export default function Portfolio() {
                 <div className="card-body">
                   <h5 className="card-title text-dark">Redux Store</h5>
                   <p className="card-text text-dark">
-                    E-commerce platform that uses Redux
+                    A full stack responsive MERN e-commerce web application that
+                    uses Redux to allow users to log in, browse products, add
+                    products to a cart, and checkout with stripe.
                   </p>
                   <a
                     href="https://random-store-redux.herokuapp.com/"
@@ -137,10 +138,9 @@ export default function Portfolio() {
                 <div className="card-body">
                   <h5 className="card-title text-dark">Event Fan Follow</h5>
                   <p className="card-text text-dark">
-                    A web-based application that centers on retrieving and
-                    processing data from the API URLs, making it a user-friendly
-                    method to simultaneously display event ticket information
-                    combined with geolocation directly on the client side.
+                    A web application that uses Ticket Master and Google Maps
+                    API to make a user-friendly method to simultaneously display
+                    event ticket information with geolocation.
                   </p>
                   <a
                     href="https://aasports89.github.io/Event-Fan-Follow/"
@@ -174,8 +174,8 @@ export default function Portfolio() {
                   <h5 className="card-title text-dark">Tech Blog</h5>
                   <p className="card-text text-dark">
                     A web application, similar to a Wordpress site, where
-                    developers can publish their blog posts and comment on other
-                    developers posts as well.
+                    developers can create an account, publish their blog posts,
+                    and comment on other developers posts as well.
                   </p>
                   <a
                     href="https://tech-blog-6.herokuapp.com/"
@@ -199,7 +199,7 @@ export default function Portfolio() {
 
         {/* *********** 6th item *********** */}
         <div className="col mb-4">
-          <div className="card flip-card  h-100">
+          <div className="card flip-card h-100">
             <div className="flip-card-inner">
               <div className="flip-card-front">
                 <img
@@ -212,8 +212,9 @@ export default function Portfolio() {
                 <div className="card-body">
                   <h5 className="card-title text-dark">Weather Dashboard</h5>
                   <p className="card-text text-dark">
-                    A weather dashboard that allows users to search for a city
-                    and get its current weather and a five day forecast.
+                    A web application that the Open Weather API to create a
+                    weather dashboard that allows users to search for a city and
+                    get its current weather and a five day forecast.
                   </p>
                   <a
                     href="https://a-riveragonzalez.github.io/weather-dashboard/"
