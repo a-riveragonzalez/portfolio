@@ -22,7 +22,7 @@ function NavBar() {
         </Nav.Link>
 
         <Nav.Link href="#resume" className="nav-skill">
-          Skills
+          Resume
           <i class="fa-solid fa-file-lines fa-2x nav-i"></i>
         </Nav.Link>
 
