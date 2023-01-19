@@ -9,6 +9,7 @@ import Impulse from "../../../images/portfolio-imgs/impulsestartgame.png";
 import EventFanFollow from "../../../images/portfolio-imgs/eventfanfollow.png";
 import Techblog from "../../../images/portfolio-imgs/techblog.png";
 import WeatherDashboard from "../../../images/portfolio-imgs/weatherdashboardpage.png";
+import Pokestats from "../../../images/portfolio-imgs/pokestats.png";
 import ReduxStore from "../../../images/portfolio-imgs/shop-shop.png";
 
 export default function Portfolio() {
@@ -125,6 +126,42 @@ export default function Portfolio() {
 
         {/* *********** 4th item *********** */}
         <div className="col mb-4">
+          <div className="card flip-card h-100">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
+                <img src={Pokestats} className="card-img-top" alt="..."></img>
+              </div>
+              <div className="flip-card-back">
+                <div className="card-body">
+                  <h5 className="card-title text-dark">Pokemon Type Stats</h5>
+                  <p className="card-text text-dark">
+                    A responsive web application that uses React.js and the
+                    Pokemon API to allow users to search for a Pokemon and view
+                    its sprite, shiny form, defensive and offensive stats.
+                  </p>
+                  <a
+                    href="https://pokemon-stats.herokuapp.com/"
+                    className="btn btn-primary mx-3"
+                  >
+                    {" "}
+                    Demo{" "}
+                  </a>
+                  <a
+                    href="https://github.com/mladame/pokemon-type-index "
+                    className="btn btn-primary"
+                  >
+                    {" "}
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+
+        {/* *********** 5th item *********** */}
+        <div className="col mb-4">
           <div className="card flip-card  h-100">
             <div className="flip-card-inner">
               <div className="flip-card-front">
@@ -159,10 +196,10 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
+          </div> 
         </div>
 
-        {/* *********** 5th item *********** */}
+        {/* *********** 6th item *********** */}
         <div className="col mb-4">
           <div className="card flip-card  h-100">
             <div className="flip-card-inner">
@@ -194,46 +231,7 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-
-        {/* *********** 6th item *********** */}
-        <div className="col mb-4">
-          <div className="card flip-card h-100">
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-                <img
-                  src={WeatherDashboard}
-                  className="card-img-top"
-                  alt="..."
-                ></img>
-              </div>
-              <div className="flip-card-back">
-                <div className="card-body">
-                  <h5 className="card-title text-dark">Weather Dashboard</h5>
-                  <p className="card-text text-dark">
-                    A web application that the Open Weather API to create a
-                    weather dashboard that allows users to search for a city and
-                    get its current weather and a five day forecast.
-                  </p>
-                  <a
-                    href="https://a-riveragonzalez.github.io/weather-dashboard/"
-                    className="btn btn-primary mx-3"
-                  >
-                    {" "}
-                    Demo{" "}
-                  </a>
-                  <a
-                    href="https://github.com/a-riveragonzalez/weather-dashboard"
-                    className="btn btn-primary"
-                  >
-                    {" "}
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
+          </div> 
         </div>
       </div>
     </div>
