@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.eec8733b.css",
-    "main.js": "/portfolio/static/js/main.c1d46ddf.js",
+    "main.js": "/portfolio/static/js/main.d3201a46.js",
     "static/media/jared-poledna-ULyDZmchhgc-unsplash.jpg": "/portfolio/static/media/jared-poledna-ULyDZmchhgc-unsplash.5bab5822c8e4d13f5146.jpg",
     "static/media/damiano-ferrante-gS5GbmoUUnc-unsplash1.jpg": "/portfolio/static/media/damiano-ferrante-gS5GbmoUUnc-unsplash1.8b6bf72f5cf1dd58da51.jpg",
     "static/media/eventfanfollow.png": "/portfolio/static/media/eventfanfollow.3d85cf04471a1a66b8b8.png",
@@ -11,16 +11,17 @@
     "static/media/techblog.png": "/portfolio/static/media/techblog.46a3fa84952fb0572d33.png",
     "static/media/ichooseyoumatchpage.png": "/portfolio/static/media/ichooseyoumatchpage.6489521b801ff43c35f4.png",
     "static/media/weatherdashboardpage.png": "/portfolio/static/media/weatherdashboardpage.558c3e4b482221df711b.png",
+    "static/media/pokestats.png": "/portfolio/static/media/pokestats.caadc7eb8e3b30670206.png",
     "static/media/impulsestartgame.png": "/portfolio/static/media/impulsestartgame.ad1fc67b4fe0a05687ac.png",
     "static/media/react.png": "/portfolio/static/media/react.0258a39c0da07bd24e39.png",
     "static/media/my-sql.png": "/portfolio/static/media/my-sql.503cfdd887631c88e6bc.png",
     "static/media/jquery.png": "/portfolio/static/media/jquery.a637f53ad6ad311f6b4c.png",
     "index.html": "/portfolio/index.html",
     "main.eec8733b.css.map": "/portfolio/static/css/main.eec8733b.css.map",
-    "main.c1d46ddf.js.map": "/portfolio/static/js/main.c1d46ddf.js.map"
+    "main.d3201a46.js.map": "/portfolio/static/js/main.d3201a46.js.map"
   },
   "entrypoints": [
     "static/css/main.eec8733b.css",
-    "static/js/main.c1d46ddf.js"
+    "static/js/main.d3201a46.js"
   ]
 }
