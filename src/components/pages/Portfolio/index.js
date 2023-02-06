@@ -63,7 +63,7 @@ export default function Portfolio() {
               </div>
               <div className="flip-card-back">
                 <div className="card-body">
-                  <h5 className="card-title text-dark">Impulse: The Game</h5>
+                  <h5 className="card-title text-dark">Impulse The Game</h5>
                   <p className="card-text text-dark">
                     A full stack board game where your character advances and is
                     compelled to buy an Item card or choose a Life Event Card
@@ -126,8 +126,8 @@ export default function Portfolio() {
 
         {/* *********** 4th item *********** */}
         <div className="col mb-4">
-          <div className="card flip-card h-100">
-            <div className="flip-card-inner">
+        <div className="card flip-card h-100">
+            <div className="flip-card-inner ">
               <div className="flip-card-front">
                 <img src={Pokestats} className="card-img-top" alt="..."></img>
               </div>
@@ -135,7 +135,7 @@ export default function Portfolio() {
                 <div className="card-body">
                   <h5 className="card-title text-dark">Pokemon Type Stats</h5>
                   <p className="card-text text-dark">
-                    A responsive web application that uses React.js and the
+                  A responsive web application that uses React and the
                     Pokemon API to allow users to search for a Pokemon and view
                     its sprite, shiny form, defensive and offensive stats.
                   </p>
@@ -147,7 +147,7 @@ export default function Portfolio() {
                     Demo{" "}
                   </a>
                   <a
-                    href="https://github.com/mladame/pokemon-type-index "
+                    href="https://github.com/mladame/pokemon-type-index"
                     className="btn btn-primary"
                   >
                     {" "}

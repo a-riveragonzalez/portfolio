@@ -31,7 +31,7 @@ export default function About() {
                 <div className="right">
                   <a href="https://www.linkedin.com/in/arelyriveragonzalez/">
                     <h3 className="white">
-                      | LinkedIn <i class="fa-brands fa-linkedin text-dark"></i>
+                      <span className="text-dark">| LinkedIn</span> <i class="fa-brands fa-linkedin text-dark"></i>
                     </h3>
                   </a>
                 </div>

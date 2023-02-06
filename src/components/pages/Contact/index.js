@@ -118,7 +118,7 @@ export default function Contact() {
           <p>{status}</p>
 
           <p className="text-center"><i class="fa-solid fa-envelope"></i> Email: arelyrivera1996@gmail.com</p>
-          <p className="text-center"> <i class="fa-solid fa-location-dot"></i> Los Angeles, CA</p>
+          <p className="text-center"> <i class="fa-solid fa-location-dot"></i> <span className="ml-1">Los Angeles, CA</span></p>
           <p className="text-center"> Want to set up a meeting?</p>
           <p className="text-center"><a href="https://calendly.com/arelyrivera/30min" className="text-center"><i class="fa-solid fa-mug-saucer"></i> Calendly</a></p>
 
