@@ -157,7 +157,6 @@ export default function Portfolio() {
               </div>
             </div>
           </div>
-          
         </div>
 
         {/* *********** 5th item *********** */}
@@ -196,7 +195,7 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
 
         {/* *********** 6th item *********** */}
@@ -231,7 +230,7 @@ export default function Portfolio() {
                 </div>
               </div>
             </div>
-          </div> 
+          </div>
         </div>
       </div>
     </div>
