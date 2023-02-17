@@ -25,7 +25,7 @@ export default function Resume() {
               <h5 className="card-title ">Backend Skills</h5>
               <hr></hr>
               <p className="card-text ">
-                React, Node.js, Express, Sequelize, MySQL, MongoDB, NoSQL,
+                React, Node.js, Express, Redux, MySQL, MongoDB, NoSQL,
                 Handlebars
               </p>
             </div>
