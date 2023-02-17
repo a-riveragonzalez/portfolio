@@ -42,7 +42,7 @@ export default function Resume() {
           <div className="card h-100 w-50 inverted-2">
             <div className="card-body">
               <a
-                href="https://drive.google.com/uc?export=download&id=1YRayVH1xbUSpUxQUwIlzLYL1kkFjLXsV"
+                href="https://drive.google.com/uc?export=download&id=1nirnDRE1gKbqM0TPYW-shOZMcPfeWVAO"
                 className="btn btn-primary btn-block w-100"
                 target="_blank"
                 rel="noopener noreferrer"
