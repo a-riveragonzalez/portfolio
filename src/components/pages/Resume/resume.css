@@ -41,6 +41,7 @@
 
 .inverted-2:hover {
   background-position: top right, bottom left;
+  transition: 0.8s
 }
 
 .inverted-2:hover h5, .inverted-2:hover p, .inverted-2:hover hr {
