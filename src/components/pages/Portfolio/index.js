@@ -1,11 +1,12 @@
 import React from "react";
-import Card from "react-bootstrap/Card";
-import Col from "react-bootstrap/Col";
-import Row from "react-bootstrap/Row";
 import "./portfolio.css";
 import Carousel from "react-bootstrap/Carousel";
 
-import Ichooseyou from "../../../images/portfolio-imgs/ichooseyoumatchpage.png";
+import IchooseyouBattle from "../../../images/portfolio-imgs/ichooseyoubattlemenu.jpg";
+import IchooseyouMatches from "../../../images/portfolio-imgs/ichooseyoumatches.jpg";
+import IchooseyouMessages from "../../../images/portfolio-imgs/ichooseyoumessages.jpg";
+import IchooseyouProfile from "../../../images/portfolio-imgs/ichooseyouprofile.jpg";
+import IchooseyouSignup from "../../../images/portfolio-imgs/ichooseyousignup.jpg";
 import Impulse from "../../../images/portfolio-imgs/impulsestartgame.png";
 import EventFanFollow from "../../../images/portfolio-imgs/eventfanfollow.png";
 import Techblog from "../../../images/portfolio-imgs/techblog.png";
@@ -28,22 +29,36 @@ export default function Portfolio() {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={Ichooseyou}
+                      src={IchooseyouMessages}
                       alt="First slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={Impulse}
+                      src={IchooseyouProfile}
                       alt="Second slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={Ichooseyou}
+                      src={IchooseyouMatches}
                       alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={IchooseyouBattle}
+                      alt="Fourth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={IchooseyouSignup}
+                      alt="Fifth slide"
                     />
                   </Carousel.Item>
                 </Carousel>
@@ -99,7 +114,7 @@ export default function Portfolio() {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={Ichooseyou}
+                      src={IchooseyouProfile}
                       alt="Third slide"
                     />
                   </Carousel.Item>
@@ -156,7 +171,7 @@ export default function Portfolio() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={Ichooseyou}
+                      src={IchooseyouProfile}
                       alt="Third slide"
                     />
                   </Carousel.Item>
@@ -213,7 +228,7 @@ export default function Portfolio() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={Ichooseyou}
+                      src={IchooseyouProfile}
                       alt="Third slide"
                     />
                   </Carousel.Item>
@@ -270,7 +285,7 @@ export default function Portfolio() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={Ichooseyou}
+                      src={IchooseyouProfile}
                       alt="Third slide"
                     />
                   </Carousel.Item>
@@ -327,7 +342,7 @@ export default function Portfolio() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={Ichooseyou}
+                      src={IchooseyouProfile}
                       alt="Third slide"
                     />
                   </Carousel.Item>
