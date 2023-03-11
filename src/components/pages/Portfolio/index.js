@@ -15,7 +15,11 @@ import ImpulseStartgame from "../../../images/portfolio-imgs/impulsestartgame.jp
 import EventFanFollow from "../../../images/portfolio-imgs/eventfanfollow.png";
 import Techblog from "../../../images/portfolio-imgs/techblog.png";
 import Pokestats from "../../../images/portfolio-imgs/pokestats.png";
-import ReduxStore from "../../../images/portfolio-imgs/shop-shop.png";
+import ReduxCart from "../../../images/portfolio-imgs/reduxCart.jpg";
+import ReduxCheckout from "../../../images/portfolio-imgs/reduxCheckout.jpg";
+import ReduxHomepage from "../../../images/portfolio-imgs/reduxHomepage.jpg";
+import ReduxProduct from "../../../images/portfolio-imgs/reduxProduct.jpg";
+import ReduxSelect from "../../../images/portfolio-imgs/reduxSelect.jpg";
 
 export default function Portfolio() {
   return (
@@ -175,22 +179,36 @@ export default function Portfolio() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={ReduxStore}
+                      src={ReduxHomepage}
                       alt="First slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={ImpulseGameover}
+                      src={ReduxCheckout}
                       alt="Second slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={IchooseyouProfile}
+                      src={ReduxCart}
                       alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={ReduxSelect}
+                      alt="Fourth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={ReduxProduct}
+                      alt="Fifth slide"
                     />
                   </Carousel.Item>
                 </Carousel>
