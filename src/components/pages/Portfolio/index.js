@@ -7,7 +7,11 @@ import IchooseyouMatches from "../../../images/portfolio-imgs/ichooseyoumatches.
 import IchooseyouMessages from "../../../images/portfolio-imgs/ichooseyoumessages.jpg";
 import IchooseyouProfile from "../../../images/portfolio-imgs/ichooseyouprofile.jpg";
 import IchooseyouSignup from "../../../images/portfolio-imgs/ichooseyousignup.jpg";
-import Impulse from "../../../images/portfolio-imgs/impulsestartgame.png";
+import ImpulseGameover from "../../../images/portfolio-imgs/impulsegameover.jpg";
+import ImpulseHomepage from "../../../images/portfolio-imgs/impulsehomepage.jpg";
+import ImpulsePickcard from "../../../images/portfolio-imgs/impulsepickcard.jpg";
+import ImpulsePickedbuy from "../../../images/portfolio-imgs/impulsepickedbuy.jpg";
+import ImpulseStartgame from "../../../images/portfolio-imgs/impulsestartgame.jpg";
 import EventFanFollow from "../../../images/portfolio-imgs/eventfanfollow.png";
 import Techblog from "../../../images/portfolio-imgs/techblog.png";
 import Pokestats from "../../../images/portfolio-imgs/pokestats.png";
@@ -100,22 +104,36 @@ export default function Portfolio() {
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={Impulse}
+                      src={ImpulseHomepage}
                       alt="First slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={Impulse}
+                      src={ImpulseStartgame}
                       alt="Second slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item>
                     <img
                       className="d-block w-100"
-                      src={IchooseyouProfile}
+                      src={ImpulsePickcard}
                       alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={ImpulsePickedbuy}
+                      alt="Fourth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={ImpulseGameover}
+                      alt="Fifth slide"
                     />
                   </Carousel.Item>
                 </Carousel>
@@ -164,7 +182,7 @@ export default function Portfolio() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={Impulse}
+                      src={ImpulseGameover}
                       alt="Second slide"
                     />
                   </Carousel.Item>
@@ -221,7 +239,7 @@ export default function Portfolio() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={Impulse}
+                      src={ImpulseGameover}
                       alt="Second slide"
                     />
                   </Carousel.Item>
@@ -278,7 +296,7 @@ export default function Portfolio() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={Impulse}
+                      src={ImpulseGameover}
                       alt="Second slide"
                     />
                   </Carousel.Item>
@@ -335,7 +353,7 @@ export default function Portfolio() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={Impulse}
+                      src={ImpulseGameover}
                       alt="Second slide"
                     />
                   </Carousel.Item>
