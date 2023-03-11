@@ -14,7 +14,9 @@ import ImpulsePickedbuy from "../../../images/portfolio-imgs/impulsepickedbuy.jp
 import ImpulseStartgame from "../../../images/portfolio-imgs/impulsestartgame.jpg";
 import EventFanFollow from "../../../images/portfolio-imgs/eventfanfollow.png";
 import Techblog from "../../../images/portfolio-imgs/techblog.png";
-import Pokestats from "../../../images/portfolio-imgs/pokestats.png";
+import PoketypeHomepage from "../../../images/portfolio-imgs/poketypeHomepage.jpg";
+import PoketypeShiny from "../../../images/portfolio-imgs/poketypeShiny.jpg";
+import PoketypeWooper from "../../../images/portfolio-imgs/poketypeWooper.jpg";
 import ReduxCart from "../../../images/portfolio-imgs/reduxCart.jpg";
 import ReduxCheckout from "../../../images/portfolio-imgs/reduxCheckout.jpg";
 import ReduxHomepage from "../../../images/portfolio-imgs/reduxHomepage.jpg";
@@ -250,21 +252,21 @@ export default function Portfolio() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={Pokestats}
+                      src={PoketypeWooper}
                       alt="First slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={ImpulseGameover}
+                      src={PoketypeShiny}
                       alt="Second slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={IchooseyouProfile}
+                      src={PoketypeHomepage}
                       alt="Third slide"
                     />
                   </Carousel.Item>
