@@ -3,12 +3,12 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "./portfolio.css";
+import Carousel from "react-bootstrap/Carousel";
 
 import Ichooseyou from "../../../images/portfolio-imgs/ichooseyoumatchpage.png";
 import Impulse from "../../../images/portfolio-imgs/impulsestartgame.png";
 import EventFanFollow from "../../../images/portfolio-imgs/eventfanfollow.png";
 import Techblog from "../../../images/portfolio-imgs/techblog.png";
-import WeatherDashboard from "../../../images/portfolio-imgs/weatherdashboardpage.png";
 import Pokestats from "../../../images/portfolio-imgs/pokestats.png";
 import ReduxStore from "../../../images/portfolio-imgs/shop-shop.png";
 
@@ -24,7 +24,29 @@ export default function Portfolio() {
           <div className="card flip-card h-100">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <img src={Ichooseyou} className="card-img-top" alt="..."></img>
+                <Carousel fade interval={null}>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={Ichooseyou}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={Impulse}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={Ichooseyou}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
               <div className="flip-card-back">
                 <div className="card-body">
@@ -59,7 +81,29 @@ export default function Portfolio() {
           <div className="card flip-card h-100">
             <div className="flip-card-inner ">
               <div className="flip-card-front">
-                <img src={Impulse} className="card-img-top" alt="..."></img>
+                <Carousel fade interval={null}>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={Impulse}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={Impulse}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={Ichooseyou}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
               <div className="flip-card-back">
                 <div className="card-body">
@@ -94,7 +138,29 @@ export default function Portfolio() {
           <div className="card flip-card  h-100">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <img src={ReduxStore} className="card-img-top" alt="..."></img>
+              <Carousel fade interval={null}>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={ReduxStore}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={Impulse}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={Ichooseyou}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
               <div className="flip-card-back">
                 <div className="card-body">
@@ -126,18 +192,40 @@ export default function Portfolio() {
 
         {/* *********** 4th item *********** */}
         <div className="col mb-4">
-        <div className="card flip-card h-100">
+          <div className="card flip-card h-100">
             <div className="flip-card-inner ">
               <div className="flip-card-front">
-                <img src={Pokestats} className="card-img-top" alt="..."></img>
+              <Carousel fade interval={null}>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={Pokestats}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={Impulse}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={Ichooseyou}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
               <div className="flip-card-back">
                 <div className="card-body">
                   <h5 className="card-title text-dark">Pokemon Type Stats</h5>
                   <p className="card-text text-dark">
-                  A responsive web application that uses React and the
-                    Pokemon API to allow users to search for a Pokemon and view
-                    its sprite, shiny form, defensive and offensive stats.
+                    A responsive web application that uses React and the Pokemon
+                    API to allow users to search for a Pokemon and view its
+                    sprite, shiny form, defensive and offensive stats.
                   </p>
                   <a
                     href="https://pokemon-stats.herokuapp.com/"
@@ -164,11 +252,29 @@ export default function Portfolio() {
           <div className="card flip-card  h-100">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <img
-                  src={EventFanFollow}
-                  className="card-img-top"
-                  alt="..."
-                ></img>
+              <Carousel fade interval={null}>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={EventFanFollow}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={Impulse}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={Ichooseyou}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
               <div className="flip-card-back">
                 <div className="card-body">
@@ -203,7 +309,29 @@ export default function Portfolio() {
           <div className="card flip-card  h-100">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-                <img src={Techblog} className="card-img-top" alt="..."></img>
+              <Carousel fade interval={null}>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={Techblog}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={Impulse}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={Ichooseyou}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
               </div>
               <div className="flip-card-back">
                 <div className="card-body">
