@@ -15,6 +15,9 @@ import ImpulseStartgame from "../../../images/portfolio-imgs/impulsestartgame.jp
 import EventFanFollow from "../../../images/portfolio-imgs/eventfanfollow.png";
 import EventFanFollowHomepage from "../../../images/portfolio-imgs/eventfanfollowHomepage.jpg";
 import Techblog from "../../../images/portfolio-imgs/techblog.png";
+import TechblogDashboard from "../../../images/portfolio-imgs/techblogDashboard.jpg";
+import TechblogPost from "../../../images/portfolio-imgs/techblogPost.jpg";
+import TechblogSignup from "../../../images/portfolio-imgs/techblogSignup.jpg";
 import PoketypeHomepage from "../../../images/portfolio-imgs/poketypeHomepage.jpg";
 import PoketypeShiny from "../../../images/portfolio-imgs/poketypeShiny.jpg";
 import PoketypeWooper from "../../../images/portfolio-imgs/poketypeWooper.jpg";
@@ -367,15 +370,22 @@ export default function Portfolio() {
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={ImpulseGameover}
+                      src={TechblogDashboard}
                       alt="Second slide"
                     />
                   </Carousel.Item>
                   <Carousel.Item >
                     <img
                       className="d-block w-100"
-                      src={IchooseyouProfile}
+                      src={TechblogPost}
                       alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item >
+                    <img
+                      className="d-block w-100"
+                      src={TechblogSignup}
+                      alt="Fourth slide"
                     />
                   </Carousel.Item>
                 </Carousel>
