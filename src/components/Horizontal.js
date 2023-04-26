@@ -20,25 +20,25 @@ import TailwindPic from "../images/icons/tailwind.png";
 export default function Horizontal() {
   return (
     <div className="horizontal-container row py-1 mx-auto justify-content-center">
-      <img className="col-2 col-md-1 icon" src={HtmlPic}></img>
-      <img className="col-2 col-md-1 icon" src={CssPic}></img>
-      <img className="col-2 col-md-1 icon" src={JavaScriptPic}></img>
-      <img className="col-2 col-md-1 icon" src={ReactPic}></img>
+      <img className="col-2 col-md-1 icon" src={HtmlPic} alt="html icon"></img>
+      <img className="col-2 col-md-1 icon" src={CssPic} alt="css icon"></img>
+      <img className="col-2 col-md-1 icon" src={JavaScriptPic} alt="javascript icon"></img>
+      <img className="col-2 col-md-1 icon" src={ReactPic} alt="react icon"></img>
 
-      <img className="col-2 col-md-1 icon" src={NodePic}></img>
-      <img className="col-2 col-md-1 icon" src={ExpressPic}></img>
-      <img className="col-2 col-md-1 icon" src={MongoPic}></img>
-      <img className="col-2 col-md-1 icon" src={ReduxPic}></img>
+      <img className="col-2 col-md-1 icon" src={NodePic} alt="node icon"></img>
+      <img className="col-2 col-md-1 icon" src={ExpressPic} alt="express icon"></img>
+      <img className="col-2 col-md-1 icon" src={MongoPic} alt="mongo icon"></img>
+      <img className="col-2 col-md-1 icon" src={ReduxPic} alt="redux icon"></img>
 
-      <img className="col-2 col-md-1 icon" src={MysqlPic}></img>
-      <img className="col-2 col-md-1 icon" src={GithubPic}></img>
-      <img className="col-2 col-md-1 icon" src={HandlebarsPic}></img>
-      <img className="col-2 col-md-1 icon" src={JqueryPic}></img>
+      <img className="col-2 col-md-1 icon" src={MysqlPic} alt="mysql icon"></img>
+      <img className="col-2 col-md-1 icon" src={GithubPic} alt="github icon"></img>
+      <img className="col-2 col-md-1 icon" src={HandlebarsPic} alt="handlebards icon"></img>
+      <img className="col-2 col-md-1 icon" src={JqueryPic} alt="jquery icon"></img>
 
-      <img className="col-2 col-md-1 icon" src={NextjsPic}></img>
-      <img className="col-2 col-md-1 icon" src={TailwindPic}></img>
-      <img className="col-2 col-md-1 icon" src={GitPic}></img>
-      <img className="col-2 col-md-1 icon" src={GraphQLPic}></img>
+      <img className="col-2 col-md-1 icon" src={NextjsPic} alt="next.js icon"></img>
+      <img className="col-2 col-md-1 icon" src={TailwindPic} alt="tailwind icon"></img>
+      <img className="col-2 col-md-1 icon" src={GitPic} alt="git icon"></img>
+      <img className="col-2 col-md-1 icon" src={GraphQLPic} alt="graphql icon"></img>
     </div>
   );
 }
