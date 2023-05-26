@@ -1,12 +1,16 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.2869d334.css",
-    "main.js": "/portfolio/static/js/main.7145c7c6.js",
+    "main.css": "/portfolio/static/css/main.8e02258b.css",
+    "main.js": "/portfolio/static/js/main.b8667fa7.js",
     "static/media/jared-poledna-ULyDZmchhgc-unsplash.jpg": "/portfolio/static/media/jared-poledna-ULyDZmchhgc-unsplash.5bab5822c8e4d13f5146.jpg",
     "static/media/damiano-ferrante-gS5GbmoUUnc-unsplash1.jpg": "/portfolio/static/media/damiano-ferrante-gS5GbmoUUnc-unsplash1.8b6bf72f5cf1dd58da51.jpg",
-    "static/media/eventfanfollow.png": "/portfolio/static/media/eventfanfollow.3d85cf04471a1a66b8b8.png",
+    "static/media/tattoo_hero.png": "/portfolio/static/media/tattoo_hero.95b7c0a04cb8c8948136.png",
+    "static/media/tattoo_tats.png": "/portfolio/static/media/tattoo_tats.364ec591e3041aa6f7dd.png",
+    "static/media/tattoo_draw.png": "/portfolio/static/media/tattoo_draw.c433c6301db68bf8bb23.png",
     "static/media/taras-hrytsak-VIEfAkW-9c0-unsplash.jpg": "/portfolio/static/media/taras-hrytsak-VIEfAkW-9c0-unsplash.2a283be0b0abeaa28771.jpg",
+    "static/media/tattoo_about.png": "/portfolio/static/media/tattoo_about.53ce46f8492b25bf90f8.png",
     "static/media/arg-face.png": "/portfolio/static/media/arg-face.f4a25267903445666a58.png",
+    "static/media/tattoo_cta.png": "/portfolio/static/media/tattoo_cta.b2ef78ddfcfce05842ce.png",
     "static/media/techblog.png": "/portfolio/static/media/techblog.46a3fa84952fb0572d33.png",
     "static/media/impulsepickedbuy.jpg": "/portfolio/static/media/impulsepickedbuy.33cda27724231c7e733a.jpg",
     "static/media/impulsehomepage.jpg": "/portfolio/static/media/impulsehomepage.f0fbd5bee696d9bf3332.jpg",
@@ -15,7 +19,6 @@
     "static/media/poketypeHomepage.jpg": "/portfolio/static/media/poketypeHomepage.16fb4e752e69c8a876dc.jpg",
     "static/media/poketypeWooper.jpg": "/portfolio/static/media/poketypeWooper.eb29b506bcd6de97edf8.jpg",
     "static/media/impulsepickcard.jpg": "/portfolio/static/media/impulsepickcard.260b14f449a98a753d3e.jpg",
-    "static/media/eventfanfollowHomepage.jpg": "/portfolio/static/media/eventfanfollowHomepage.3b9b0ee887a93f577e46.jpg",
     "static/media/poketypeShiny.jpg": "/portfolio/static/media/poketypeShiny.452e02a3407b365507d7.jpg",
     "static/media/reduxHomepage.jpg": "/portfolio/static/media/reduxHomepage.37960f8f237e386359d2.jpg",
     "static/media/ichooseyoubattlemenu.jpg": "/portfolio/static/media/ichooseyoubattlemenu.cd03a812fab0e8e62caf.jpg",
@@ -30,15 +33,16 @@
     "static/media/techblogPost.jpg": "/portfolio/static/media/techblogPost.01c365f74d060e68cdaa.jpg",
     "static/media/techblogDashboard.jpg": "/portfolio/static/media/techblogDashboard.19192f7fcba50b1e7ac4.jpg",
     "static/media/techblogSignup.jpg": "/portfolio/static/media/techblogSignup.cf4289f4bd02432dfec7.jpg",
+    "static/media/tattoo_form.png": "/portfolio/static/media/tattoo_form.bd983359f4ce42f5760e.png",
     "static/media/react.png": "/portfolio/static/media/react.0258a39c0da07bd24e39.png",
     "static/media/my-sql.png": "/portfolio/static/media/my-sql.503cfdd887631c88e6bc.png",
     "static/media/jquery.png": "/portfolio/static/media/jquery.a637f53ad6ad311f6b4c.png",
     "index.html": "/portfolio/index.html",
-    "main.2869d334.css.map": "/portfolio/static/css/main.2869d334.css.map",
-    "main.7145c7c6.js.map": "/portfolio/static/js/main.7145c7c6.js.map"
+    "main.8e02258b.css.map": "/portfolio/static/css/main.8e02258b.css.map",
+    "main.b8667fa7.js.map": "/portfolio/static/js/main.b8667fa7.js.map"
   },
   "entrypoints": [
-    "static/css/main.2869d334.css",
-    "static/js/main.7145c7c6.js"
+    "static/css/main.8e02258b.css",
+    "static/js/main.b8667fa7.js"
   ]
 }
