@@ -12,8 +12,6 @@ import ImpulseHomepage from "../../../images/portfolio-imgs/impulsehomepage.jpg"
 import ImpulsePickcard from "../../../images/portfolio-imgs/impulsepickcard.jpg";
 import ImpulsePickedbuy from "../../../images/portfolio-imgs/impulsepickedbuy.jpg";
 import ImpulseStartgame from "../../../images/portfolio-imgs/impulsestartgame.jpg";
-import EventFanFollow from "../../../images/portfolio-imgs/eventfanfollow.png";
-import EventFanFollowHomepage from "../../../images/portfolio-imgs/eventfanfollowHomepage.jpg";
 import Techblog from "../../../images/portfolio-imgs/techblog.png";
 import TechblogDashboard from "../../../images/portfolio-imgs/techblogDashboard.jpg";
 import TechblogPost from "../../../images/portfolio-imgs/techblogPost.jpg";
@@ -26,6 +24,12 @@ import ReduxCheckout from "../../../images/portfolio-imgs/reduxCheckout.jpg";
 import ReduxHomepage from "../../../images/portfolio-imgs/reduxHomepage.jpg";
 import ReduxProduct from "../../../images/portfolio-imgs/reduxProduct.jpg";
 import ReduxSelect from "../../../images/portfolio-imgs/reduxSelect.jpg";
+import TattooHero from "../../../images/portfolio-imgs/tattoo_hero.png";
+import TattooAbout from "../../../images/portfolio-imgs/tattoo_about.png";
+import TattooTats from "../../../images/portfolio-imgs/tattoo_tats.png";
+import TattooDraw from "../../../images/portfolio-imgs/tattoo_draw.png";
+import TattooCta from "../../../images/portfolio-imgs/tattoo_cta.png";
+import TattooForm from "../../../images/portfolio-imgs/tattoo_form.png";
 
 export default function Portfolio() {
   return (
@@ -35,6 +39,82 @@ export default function Portfolio() {
 
       <div className="row row-cols-1 row-cols-md-2 row-cols-xl-3">
         {/* *********** 1st item *********** */}
+        <div className="col mb-4">
+          <div className="card flip-card  h-100">
+            <div className="flip-card-inner">
+              <div className="flip-card-front">
+                <Carousel fade interval={null}>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={TattooHero}
+                      alt="First slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={TattooAbout}
+                      alt="Second slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={TattooTats}
+                      alt="Third slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={TattooDraw}
+                      alt="Fourth slide"
+                    />
+                  </Carousel.Item>{" "}
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={TattooCta}
+                      alt="Fifth slide"
+                    />
+                  </Carousel.Item>
+                  <Carousel.Item>
+                    <img
+                      className="d-block w-100"
+                      src={TattooForm}
+                      alt="Sixth slide"
+                    />
+                  </Carousel.Item>
+                </Carousel>
+              </div>
+              <div className="flip-card-back">
+                <div className="card-body">
+                  <h5 className="card-title text-dark">Tattoo Shop</h5>
+                  <p className="card-text text-dark">
+                  A mobile responsive website that showcases the artistry and services of a tattoo studio using Next.js and Tailwind. The form uses NodeMailer to send emails directly to the artist. 
+                  </p>
+                  <a
+                    href="https://tattoos.vercel.app/"
+                    className="btn btn-primary mx-3"
+                  >
+                    {" "}
+                    Demo{" "}
+                  </a>
+                  <a
+                    href="https://github.com/a-riveragonzalez/tattoos"
+                    className="btn btn-primary"
+                  >
+                    {" "}
+                    GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        {/* *********** 2nd item *********** */}
         <div className="col mb-4">
           <div className="card flip-card h-100">
             <div className="flip-card-inner">
@@ -105,7 +185,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        {/* *********** 2nd item *********** */}
+        {/* *********** 3rd item *********** */}
         <div className="col mb-4">
           <div className="card flip-card h-100">
             <div className="flip-card-inner ">
@@ -176,41 +256,41 @@ export default function Portfolio() {
           </div>
         </div>
 
-        {/* *********** 3rd item *********** */}
+        {/* *********** 4th item *********** */}
         <div className="col mb-4">
           <div className="card flip-card  h-100">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-              <Carousel fade interval={null}>
-                  <Carousel.Item >
+                <Carousel fade interval={null}>
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={ReduxHomepage}
                       alt="First slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item >
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={ReduxCheckout}
                       alt="Second slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item >
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={ReduxCart}
                       alt="Third slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item >
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={ReduxSelect}
                       alt="Fourth slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item >
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={ReduxProduct}
@@ -247,27 +327,27 @@ export default function Portfolio() {
           </div>
         </div>
 
-        {/* *********** 4th item *********** */}
+        {/* *********** 5th item *********** */}
         <div className="col mb-4">
           <div className="card flip-card h-100">
             <div className="flip-card-inner ">
               <div className="flip-card-front">
-              <Carousel fade interval={null}>
-                  <Carousel.Item >
+                <Carousel fade interval={null}>
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={PoketypeWooper}
                       alt="First slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item >
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={PoketypeShiny}
                       alt="Second slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item >
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={PoketypeHomepage}
@@ -304,84 +384,34 @@ export default function Portfolio() {
           </div>
         </div>
 
-        {/* *********** 5th item *********** */}
-        <div className="col mb-4">
-          <div className="card flip-card  h-100">
-            <div className="flip-card-inner">
-              <div className="flip-card-front">
-              <Carousel fade interval={null}>
-                  <Carousel.Item >
-                    <img
-                      className="d-block w-100"
-                      src={EventFanFollow}
-                      alt="First slide"
-                    />
-                  </Carousel.Item>
-                  <Carousel.Item >
-                    <img
-                      className="d-block w-100"
-                      src={EventFanFollowHomepage}
-                      alt="Second slide"
-                    />
-                  </Carousel.Item>
-                </Carousel>
-              </div>
-              <div className="flip-card-back">
-                <div className="card-body">
-                  <h5 className="card-title text-dark">Event Fan Follow</h5>
-                  <p className="card-text text-dark">
-                    A web application that uses Ticket Master and Google Maps
-                    API to make a user-friendly method to simultaneously display
-                    event ticket information with geolocation.
-                  </p>
-                  <a
-                    href="https://aasports89.github.io/Event-Fan-Follow/"
-                    className="btn btn-primary mx-3"
-                  >
-                    {" "}
-                    Demo{" "}
-                  </a>
-                  <a
-                    href="https://github.com/AASports89/Event-Fan-Follow"
-                    className="btn btn-primary"
-                  >
-                    {" "}
-                    GitHub
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
         {/* *********** 6th item *********** */}
         <div className="col mb-4">
           <div className="card flip-card  h-100">
             <div className="flip-card-inner">
               <div className="flip-card-front">
-              <Carousel fade interval={null}>
-                  <Carousel.Item >
+                <Carousel fade interval={null}>
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={Techblog}
                       alt="First slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item >
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={TechblogDashboard}
                       alt="Second slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item >
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={TechblogPost}
                       alt="Third slide"
                     />
                   </Carousel.Item>
-                  <Carousel.Item >
+                  <Carousel.Item>
                     <img
                       className="d-block w-100"
                       src={TechblogSignup}
