@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.8e02258b.css",
-    "main.js": "/portfolio/static/js/main.b8667fa7.js",
+    "main.js": "/portfolio/static/js/main.34431f18.js",
     "static/media/jared-poledna-ULyDZmchhgc-unsplash.jpg": "/portfolio/static/media/jared-poledna-ULyDZmchhgc-unsplash.5bab5822c8e4d13f5146.jpg",
     "static/media/damiano-ferrante-gS5GbmoUUnc-unsplash1.jpg": "/portfolio/static/media/damiano-ferrante-gS5GbmoUUnc-unsplash1.8b6bf72f5cf1dd58da51.jpg",
     "static/media/tattoo_hero.png": "/portfolio/static/media/tattoo_hero.95b7c0a04cb8c8948136.png",
@@ -39,10 +39,10 @@
     "static/media/jquery.png": "/portfolio/static/media/jquery.a637f53ad6ad311f6b4c.png",
     "index.html": "/portfolio/index.html",
     "main.8e02258b.css.map": "/portfolio/static/css/main.8e02258b.css.map",
-    "main.b8667fa7.js.map": "/portfolio/static/js/main.b8667fa7.js.map"
+    "main.34431f18.js.map": "/portfolio/static/js/main.34431f18.js.map"
   },
   "entrypoints": [
     "static/css/main.8e02258b.css",
-    "static/js/main.b8667fa7.js"
+    "static/js/main.34431f18.js"
   ]
 }
