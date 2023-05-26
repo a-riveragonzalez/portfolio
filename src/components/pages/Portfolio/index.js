@@ -42,7 +42,7 @@ export default function Portfolio() {
         <div className="col mb-4">
           <div className="card flip-card  h-100">
             <div className="flip-card-inner">
-              <div className="flip-card-front">
+              <div className="flip-card-front tattoo">
                 <Carousel fade interval={null}>
                   <Carousel.Item>
                     <img
